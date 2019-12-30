@@ -18,7 +18,7 @@ end
 #
 # { directorOne => allTheMoneyTheyMade, ... }
 def directors_totals(nds)
-  pp nds[0]
+  pp nds[0][:name]
   result = {}
   directorCount = 0
   #while directorCount < nds.length do
